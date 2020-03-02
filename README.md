@@ -26,4 +26,4 @@
 # Systems Tested For
 - Windows 32Bit (AMD)
 - Windows 64Bit (Intel)
-- Ubuntu 64Bit (Intel)
+- Linux (Ubuntu 18.04) 64Bit (Intel)
