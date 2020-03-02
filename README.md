@@ -8,14 +8,15 @@
 <h3 align="center">Open source software that allows you to detect multiple types of objects and interact with the world using computer vision.</h3>
 
 # Detection Methods
-| Detection Method   | Header File       | Dependent Files                                       |
+| Detection Method   | Header File       | Python/JS                                             |
 |--------------------|-------------------|-------------------------------------------------------|
-| Finger Detection   | FingerDetection.h | VideoFeed.h / ImgProc.h                               |
-| Face Detection     | FaceDetection.h   | VideoFeed.h / ImgProc.h                               |
-| Face Tracking      | FaceTracker.h     | VideoFeed.h / ImgProc.h, FaceDetection.h, Cascade.xml |
-| Face Recognition   | FaceReco.h        | VideoFeed.h / ImgProc.h, FaceDetection.h, Cascade.xml |
-| Object Tracking    | ObjTracker.h      | VideoFeed.h / ImgProc.h, ObjCascade.xml               |
-| Object Recognition | ObjReco.h         | VideoFeed.h / ImgProc.h, ObjTracker.h, ObjCascade.xml |
+| Finger Detection   | FingerDetection.h |                                                       |
+| Face Detection     | FaceDetection.h   |                                                       |
+| Face Tracking      | FaceTracker.h     |                                                       |
+| Face Recognition   | FaceReco.h        |                                                       |
+| Object Tracking    | ObjTracker.h      |                                                       |
+| Object Recognition | ObjReco.h         |                                                       |
+| Voice  Recognition | VoiceReco.h       |                                                       |
 
 - More to come!
 
