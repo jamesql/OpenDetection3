@@ -1,7 +1,7 @@
 <h1 align="center">Open Detection 3</h1>
     <p align="center">
     <img src='https://img.shields.io/badge/OpenCV-4.20-violet'></img>
-    <img src='https://img.shields.io/badge/Build-failed-red'></img>
+    <img src='https://img.shields.io/badge/Build-WIP-red'></img>
     <img src='https://img.shields.io/badge/Dependencies-up%20to%20date-green'></img>
 
   </p>
