@@ -23,6 +23,12 @@
 - OpenCV (4.20)
 
 
+# Python Library
+- Coming Soon!
+
+# JavaScript Library
+- Coming Soon
+
 # Systems Tested For
 - Windows 32Bit (AMD)
 - Windows 64Bit (Intel)
