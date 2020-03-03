@@ -21,7 +21,7 @@
 - More to come!
 
 # Dependencies
-- OpenCV (4.20)
+- <a href='https://opencv.org/releases/'>OpenCV (4.20)</a>
 
 
 # Python Library
