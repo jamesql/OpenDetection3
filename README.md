@@ -8,15 +8,15 @@
 <h3 align="center">Open source software that allows you to detect multiple types of objects and interact with the world using computer vision.</h3>
 
 # Detection Methods
-| Detection Method   | Header File       | Python              | JavaScript       |
-|--------------------|-------------------|----------------------------------------|
-| Finger Detection   | FingerDetection.h | FingerDetection.py  |                  |
-| Face Detection     | FaceDetection.h   | FaceDetection.py    |                  |
-| Face Tracking      | FaceTracker.h     | FaceTracker.py      |                  |
-| Face Recognition   | FaceReco.h        | FaceRecognition.py  |                  |
-| Object Tracking    | ObjTracker.h      | ObjTracker.py       |                  |
-| Object Recognition | ObjReco.h         | ObjRecognition.py   |                  |
-| Voice  Recognition | VoiceReco.h       | VoiceRecognition.py |                  |
+| Detection Method   | Header File        | Python              | JavaScript          |
+|--------------------|--------------------|---------------------|---------------------|
+| Finger Detection   | FingerDetection.h  | FingerDetection.py  | FingerDetection.js  |
+| Face Detection     | FaceDetection.h    | FaceDetection.py    | FaceDetection.js    |
+| Face Tracking      | FaceTracker.h      | FaceTracker.py      | FaceTracker.js      |
+| Face Recognition   | FaceRecognition.h  | FaceRecognition.py  | FaceRecognition.js  |
+| Object Tracking    | ObjTracker.h       | ObjTracker.py       | ObjTracker.js       |
+| Object Recognition | ObjRecognition.h   | ObjRecognition.py   | ObjRecognition.js   |
+| Voice  Recognition | VoiceRecognition.h | VoiceRecognition.py | VoiceRecognition.js |
 
 - More to come!
 
