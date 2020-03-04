@@ -25,7 +25,8 @@
 
 
 # Python Library
-- Coming Soon!
+- <a href='https://pypi.org/project/opencv-python/'>pip install opencv-python</a>
+- <a href='https://github.com/smitteh1/OpenDetection3/blob/master/Python/OpenDetection.py'>import OpenDetection</a>
 
 # JavaScript Library
 - Coming Soon
