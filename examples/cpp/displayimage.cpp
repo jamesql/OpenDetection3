@@ -1,4 +1,4 @@
-#include "OpenDetection/ODImage.h"
+#include "../CPP/ODImage.h"
 
 int main() {
     ODImage image("image1.png");
