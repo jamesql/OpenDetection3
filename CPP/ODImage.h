@@ -12,7 +12,7 @@ class ODImage {
         void display();
         void display(string);
         Mat getCurrentImage();
-        Mat getOriginal();
+        Mat getOriginalImage();
 
     private:
         Mat image;

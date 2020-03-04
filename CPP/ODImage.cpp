@@ -22,3 +22,10 @@ void ODImage::display (string win) {
 
 }
 
+Mat ODImage::getCurrentImage () {
+    return image;
+}
+
+Mat ODImage::getOriginalImage () {
+    return original;
+}
