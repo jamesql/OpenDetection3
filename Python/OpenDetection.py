@@ -5,7 +5,7 @@ class ODImage:
         im = cv2.imread(directory);
         if im is not None:
             self.image = im;
-            image.copyTo(self.original);
+            self.original = self.image.copy();
             self.filedir = directory;
         else:
             try:
