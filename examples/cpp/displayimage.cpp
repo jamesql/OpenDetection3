@@ -1,7 +1,7 @@
 #include "../CPP/ODImage.h"
 
 int main() {
-    ODImage image("image1.png");
+    ODImage image("../images/image1.png");
 
     // display image
     image.display();
