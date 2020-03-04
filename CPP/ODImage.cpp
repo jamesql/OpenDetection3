@@ -15,11 +15,15 @@ ODImage::ODImage (string dir) {
 }
 
 void ODImage::display () {
-
+    if (image.size().width > 0 && image.size().height > 0) {
+        imshow(imageDir, image);
+    } else throw "No Valid Image : display (" + imageDir + ")";
 }
 
 void ODImage::display (string win) {
-
+    if (image.size().width > 0 && image.size().height > 0) {
+        imshow(win, image);
+    } else throw "No Valid Image : display (" + imageDir + ")";
 }
 
 Mat ODImage::getCurrentImage () {
