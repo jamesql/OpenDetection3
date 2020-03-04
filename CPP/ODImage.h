@@ -3,15 +3,19 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/imgcodecs/imgcodecs.hpp>
 
+using namespace std;
+using namespace cv;
+
 class ODImage {
     public:
-        ODImage(void);
+        ODImage(string);
         void display();
-        cv::Mat getCurrentImage();
-        cv::Mat getOriginal();
+        void display(string);
+        Mat getCurrentImage();
+        Mat getOriginal();
 
     private:
-        cv::Mat image;
-        cv::Mat original;
+        Mat image;
+        Mat original;
 
 };
