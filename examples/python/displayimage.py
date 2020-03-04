@@ -1,4 +1,4 @@
-import ODImage
+from OpenDetection import ODImage
 
 def main() :
     # contructor requires a path.

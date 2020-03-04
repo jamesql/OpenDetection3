@@ -1,10 +1,8 @@
-import os.path
-import cv2
+from OpenDetection import ODImage
+import os
 
 # simple finger contours testing 
 def main() :
-    image = cv2.imread(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/images/hand1.png');
-    cv2.imshow("test", image);
-    cv2.waitKey(0);
+    image = ODImage(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/images/hand1.png');
 
 main();
