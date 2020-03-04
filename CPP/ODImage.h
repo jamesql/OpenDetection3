@@ -17,5 +17,6 @@ class ODImage {
     private:
         Mat image;
         Mat original;
+        string imageDir;
 
 };
