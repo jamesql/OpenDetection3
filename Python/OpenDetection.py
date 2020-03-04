@@ -33,3 +33,12 @@ class ODImage:
                 raise Exception("No Valid Image : getCurrentImage() [%s]" % self.filedir);
             except Exception as error:
                 print(error);
+
+    def getOriginalImage(self):
+        if self.original is not None:
+            return self.original;
+        else:
+            try:
+                raise Exception("No Valid Image : getOriginalImage() [%s]" % self.filedir);
+            except Exception as error:
+                print(error);
