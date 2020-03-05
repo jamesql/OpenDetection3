@@ -1,6 +1,6 @@
- import cv2
+import cv2 
  
- class ODImage:
+class ODImage:
     def __init__(self, directory):
         im = cv2.imread(directory);
         if im is not None:
