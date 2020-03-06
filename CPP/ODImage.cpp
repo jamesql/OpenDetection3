@@ -1,4 +1,5 @@
 #include "ODImage.h"
+#include "ODException.h"
 
 Mat image;
 Mat original;
@@ -11,7 +12,7 @@ ODImage::ODImage (string dir) {
     image = cur;
     image.copyTo(original);
     imageDir = dir;
-    } else throw "No Valid Image : ODImage(" + dir + ");";
+    } else throw ODException(const_cast<char*>(("No Valid Image : ODImage(%s)", dir).c_str()));
 }
 
 void ODImage::display () {

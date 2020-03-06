@@ -1,4 +1,4 @@
-#include "../CPP/ODImage.h"
+#include "../../CPP/ODImage.h"
 
 int main() {
     ODImage image("../images/image1.png");
