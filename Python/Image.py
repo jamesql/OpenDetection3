@@ -1,4 +1,5 @@
 import cv2 
+from Exception import ODException
  
 class ODImage:
     def __init__(self, directory):
@@ -8,10 +9,7 @@ class ODImage:
             self.original = self.image.copy();
             self.filedir = directory;
         else:
-            try:
-                raise Exception("No Valid Image : ODImage(%s)" % directory);
-            except Exception as error:
-                print(error);
+            raise ODException("No Valid Image : ODImage(%s)" % directory);
     
     def display(self, window_title = None):
         if self.image is not None:
@@ -20,25 +18,16 @@ class ODImage:
             else:
                 cv2.imshow(window_title, self.image);
         else:
-            try:
-                raise Exception("No Valid Image : display() [%s]" % self.filedir);
-            except Exception as error:
-                print(error);
+            raise ODException("No Valid Image : display() [%s]" % self.filedir);
 
     def getCurrentImage(self):
         if self.image is not None:
             return self.image;
         else:
-            try:
-                raise Exception("No Valid Image : getCurrentImage() [%s]" % self.filedir);
-            except Exception as error:
-                print(error);
+            raise ODException("No Valid Image : getCurrentImage() [%s]" % self.filedir);
 
     def getOriginalImage(self):
         if self.original is not None:
             return self.original;
         else:
-            try:
-                raise Exception("No Valid Image : getOriginalImage() [%s]" % self.filedir);
-            except Exception as error:
-                print(error);
+            raise ODException("No Valid Image : getOriginalImage() [%s]" % self.filedir);
