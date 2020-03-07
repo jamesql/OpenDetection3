@@ -15,8 +15,10 @@ class ODImage:
         if self.image is not None:
             if window_title is None:
                 cv2.imshow(self.filedir, self.image);
+                cv2.waitKey(0);
             else:
                 cv2.imshow(window_title, self.image);
+                cv2.waitKey(0);
         else:
             raise ODException("No Valid Image : display() [%s]" % self.filedir);
 
