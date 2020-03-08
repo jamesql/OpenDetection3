@@ -12,21 +12,21 @@ ODImage::ODImage (string dir) {
     image = cur;
     image.copyTo(original);
     imageDir = dir;
-    } else throw ODException(const_cast<char*>(("No Valid Image : ODImage(%s)", dir).c_str()));
+    } else throw ODInvalidImage(const_cast<char*>(dir.c_str()));
 }
 
 void ODImage::display () {
     if (image.size().width > 0 && image.size().height > 0) {
         imshow(imageDir, image);
         waitKey(0);
-    } else throw "No Valid Image : display (" + imageDir + ")";
+    } else throw ODInvalidImage(const_cast<char*>(imageDir.c_str()));
 }
 
 void ODImage::display (string win) {
     if (image.size().width > 0 && image.size().height > 0) {
         imshow(win, image);
         waitKey(0);
-    } else throw "No Valid Image : display (" + imageDir + ")";
+    } else throw ODInvalidImage(const_cast<char*>(imageDir.c_str()));
 }
 
 Mat ODImage::getCurrentImage () {
