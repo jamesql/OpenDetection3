@@ -8,15 +8,22 @@
 <h3 align="center">Open source software that allows you to detect multiple types of objects and interact with the world using computer vision.</h3>
 
 # Detection Methods
-| OD3 Object         | C++ Obj            | Python Obj       | JavaScript Obj   |
-|--------------------|--------------------|------------------|------------------|
-| Finger Detection   | FingerDetection.h  | FingerDetection  | FingerDetection  |
-| Face Detection     | FaceDetection.h    | FaceDetection    | FaceDetection    |
-| Face Tracking      | FaceTracker.h      | FaceTracker      | FaceTracker      |
-| Face Recognition   | FaceRecognition.h  | FaceRecognition  | FaceRecognition  |
-| Object Tracking    | ObjTracker.h       | ObjTracker       | ObjTracker       |
-| Object Recognition | ObjRecognition.h   | ObjRecognition   | ObjRecognition   |
-| Voice Recognition  | VoiceRecognition.h | VoiceRecognition | VoiceRecognition |
+| | OD3 Object         | C++ Obj            | Python Obj       | JavaScript Obj   | |
+|-----------------------------------------------------------------------------------|
+|                                      Finished                                     |
+| |--------------------|--------------------|------------------|------------------| |
+|                                 Partially Working                                 |
+| |--------------------|--------------------|------------------|------------------| |
+|                               Currently In The Works                              |
+| |--------------------|--------------------|------------------|------------------| |
+| | Object Tracking    | ObjTracker.h       | ObjTracker       | ObjTracker       | |
+| | Object Recognition | ObjRecognition.h   | ObjRecognition   | ObjRecognition   | |
+| | Voice Recognition  | VoiceRecognition.h | VoiceRecognition | VoiceRecognition | |
+| | Face Detection     | FaceDetection.h    | FaceDetection    | FaceDetection    | |
+| | Face Tracking      | FaceTracker.h      | FaceTracker      | FaceTracker      | |
+| | Face Recognition   | FaceRecognition.h  | FaceRecognition  | FaceRecognition  | |
+| | Finger Detection   | FingerDetection.h  | FingerDetection  | FingerDetection  | |
+|                                  Currently Broken                                 |
 
 - More to come!
 
